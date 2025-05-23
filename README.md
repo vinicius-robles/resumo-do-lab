@@ -1,5 +1,7 @@
-# resumo-do-lab
+# Resumo do Lab
 Repositório contendo o resumo das lições aprendidas durante o desenvolvimento do lab na DIO.
+
+# Microsoft Azure - Localizando Serviços por Categoria
 
 ## Tipos de Nuvem
 - **Nuvem Pública**: Serviços oferecidos por provedores externos (Azure, AWS, Google Cloud) via internet, com pagamento por uso. Ideal para escalabilidade e redução de custos iniciais.
@@ -28,3 +30,31 @@ O Azure oferece soluções categorizadas para diversas necessidades:
 - **Rede**: VPNs, balanceadores de carga, firewalls.
 - **DevOps**: Pipelines de CI/CD, monitoramento.
 - **Segurança**: Bastion Host, gerenciamento de identidade.
+
+
+# Criando máquinas Virtuais na Azure
+
+# Laboratório Prático: Criação de Máquina Virtual no Azure
+
+## Processo Completo de Criação da VM
+
+### 1. Configuração Básica
+![Tela de configuração da VM](/images/vm-config.png)
+*Configurações básicas da máquina virtual*
+
+- **Assinatura**: Azure subscription 1
+- **Grupo de recursos**: Lab-DIO_group
+- **Nome da VM**: Lab-DIO
+- **Região**: Brazil South
+- **Tamanho**: Standard B1s (0.020 USD/hora)
+
+### 2. Status de Implantação
+A implantação foi concluída com sucesso:
+
+![Implantação concluída](/images/next-steps.png)
+*Confirmação de implantação bem-sucedida*
+
+**Detalhes:**
+- **Hora de início**: 23/05/2025, 19:00:11
+- **ID de Correlação**: f37b7870-e6ab-41b5-a9e2-7466ea7dc4a9
+- **Recursos criados**: VM, interface de rede, NSG, rede virtual e IP público

@@ -91,3 +91,31 @@ A implantação foi concluída com sucesso:
     - Banco de dados: `db-dio-lab`
     - Regras de conexão padrão
 
+
+# Construindo Arquiteturas no Azure
+
+## 🌎 Regiões e Zonas
+- 60+ regiões globais (inclui Brasil, EUA, Europa)
+- Escolha regiões próximas para melhor performance
+- Zonas de disponibilidade: datacenters independentes com rede/fibra dedicada
+- Pares de regiões (mínimo 480km de distância) para recuperação de desastres
+
+## 🔒 Regiões Especiais
+- **Azure Governamental**: Somente para órgãos dos EUA
+- **Azure China**: Operado localmente, dados ficam na China
+
+## 🧩 Componentes Principais
+- **Recursos**: VMs, SQL Database, VNets, Storage
+- **Grupos de Recursos**: Organizam serviços por projeto/ambiente
+- **Assinaturas**: Cobrança separada para dev/teste/prod
+
+## 🛠️ Como Construir
+1. **Criar Grupo de Recursos**
+  - Definir nome, região e tags
+2. **Configurar Rede (VNet)**
+  - Isolar recursos por IP
+3. **Gerenciar Acesso (IAM)**
+  - Princípio do menor privilégio
+4. **Monitorar**
+  - Log de atividades e custos
+

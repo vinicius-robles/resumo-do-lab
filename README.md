@@ -119,3 +119,45 @@ A implantação foi concluída com sucesso:
 4. **Monitorar**
   - Log de atividades e custos
 
+
+# Configurando Recursos e Dimensionamentos em Máquinas Virtuais na Azure
+
+## 🖥️ Máquinas Virtuais (VMs)
+- **O que são**: Computadores virtuais na nuvem com CPU, memória e armazenamento
+- **Pra que servem**:
+  - Rodar aplicações tradicionais
+  - Fazer migração "lift-and-shift"
+  - Testar sistemas em diferentes configurações
+
+**Dica quente**:
+- Use **Spot VMs** pra economizar (até 90% mais barato!)
+- Configure **escalonamento automático** pra lidar com tráfego variável
+
+## 🔄 Opções de Escalonamento
+| Tipo | Vantagem |  
+|------|----------|  
+| **Zonas de Disponibilidade** | Protege contra falhas físicas |  
+| **Conjuntos de Dimensionamento** | Aumenta/diminui VMs automaticamente |  
+
+## 🚀 Serviços Modernos
+### Área de Trabalho Virtual
+- Acesse seu PC de qualquer lugar
+- Compartilhe aplicativos com a equipe
+
+### Contêineres (AKS e ACI)
+- Leves e rápidos
+- Ideais pra microsserviços
+
+### Azure Functions
+- Roda código só quando precisa
+- Perfeito pra automações
+
+## 🌐 Rede na Nuvem
+### Rede Virtual (VNet)
+- Conecta todos seus serviços Azure
+- Dica: Evite conflitos de IP!
+
+### VPN e ExpressRoute
+- VPN: Segura e fácil de configurar
+- ExpressRoute: Conexão direta e ultrarrápida  
+
